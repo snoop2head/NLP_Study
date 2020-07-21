@@ -21,3 +21,13 @@
   * [네이버의 CRAFT Text Detector Model](https://github.com/clovaai/CRAFT-pytorch)
   * [CRAFT 모델을 기반으로 만든 EasyOCR 라이브러리](https://github.com/JaidedAI/EasyOCR)
 
+
+
+### snoop2head's books
+
+* Dive into Deep Learning
+https://github.com/d2l-ai/d2l-en
+* Hands on machine learning 1, 2
+https://github.com/ageron/handson-ml | https://github.com/ageron/handson-ml2
+* Deep Learning from Scratch 1, 2
+https://github.com/WegraLee/deep-learning-from-scratch | https://github.com/WegraLee/deep-learning-from-scratch-2
