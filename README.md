@@ -21,6 +21,7 @@
   * [네이버의 CRAFT Text Detector Model](https://github.com/clovaai/CRAFT-pytorch)
   * [CRAFT 모델을 기반으로 만든 EasyOCR 라이브러리](https://github.com/JaidedAI/EasyOCR)
 
+* [연세대 교환 생활 후기 텍스트 데이터로 유저들한테 해외 교환 대학 추천해주기](https://github.com/snoop2head/yonsei-exchange-life)
 
 
 ### snoop2head's books
