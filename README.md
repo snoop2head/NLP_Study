@@ -1,4 +1,4 @@
-# YBIGTA NLP Study
+# NLP Study
 
 ### [연세대 교환 생활 후기 데이터셋](https://github.com/snoop2head/yonsei-exchange-program)
 
