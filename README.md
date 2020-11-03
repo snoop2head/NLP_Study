@@ -4,7 +4,7 @@
 
 - [ ] Summarization: textrank가 아닌 다른 방법으로 요약해보기
   * TextRank는 Extractive Summarization. 원문에서 중요한 핵심 문장 또는 단어구를 몇 개 뽑아서 요약문을 만듦.
-  * Seq2Seq은 Abstractive Summarization. 추상적 요약은 해서 원문을 요약하는 방법이다. [어텐션을 이용한 아마존 후기 요약 예시](https://wikidocs.net/72820) 
+  * Seq2Seq은 Abstractive Summarization. 추상적 요약은 **원문에 없는 문장이라도 핵심 문맥을 반영한 새로운 문장을 생성**해서 원문을 요약하는 방법이다. [어텐션을 이용한 아마존 후기 요약 예시](https://wikidocs.net/72820) 
   * 요약 데이터셋은 [AIhub 데이터셋](https://aihub.or.kr/aidata/8054) 이나 [모두의 말뭉치 문서요약 말뭉치](https://corpus.korean.go.kr/) 사용할까? 
 
 - [ ] 여행 및 공부 후기에서 등장하는 Stopwords Dataset 만들어서 배포하기
