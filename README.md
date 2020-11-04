@@ -8,7 +8,7 @@
   * 요약 데이터셋은 [AIhub 데이터셋](https://aihub.or.kr/aidata/8054) 이나 [모두의 말뭉치 문서요약 말뭉치](https://corpus.korean.go.kr/) 사용할까? 
 - [ ] 여행 및 공부 후기에서 등장하는 Stopwords Dataset 만들어서 배포하기
 - [ ] Keyword Extraction: 키워드를 추출하고 worldcloud 대신에 다른 방법으로 visualize 
-- [ ] Sentiment Analysis: 네이버 쇼핑 데이터셋으로 train시킨 BERT or  STEAM 후기 데이터셋으로 train 시킨 BERT로 후기 긍부정 평가. OR BERT와 KoBERT로 영어로 작성된 후기와 한국어로 작성된 후기 긍부정 평가 분리하기
+- [ ] Sentiment Analysis: [네이버 쇼핑 데이터셋 or  STEAM 후기 데이터셋](https://github.com/bab2min/corpus/tree/master/sentiment)으로 train 시킨 BERT로 후기 긍부정 평가. 아니면 BERT와 KoBERT로 영어로 작성된 후기와 한국어로 작성된 후기 긍부정 평가 분리하기
 - [ ] Search: JS로 서치엔진 만든 서치엔진 React.js 프로젝트에 접붙여보기 
 
 ### 수능 빈칸추론 BERT 모델 성능 개선
@@ -27,15 +27,17 @@ BERT는 애초에 앞뒤 맥락을 바탕으로 Mask 된 부분을 채워넣는 
 * [ ] Word2VEC 외에도 다른 방법으로 이모티콘 추천하기
 * [ ] 인스타그램 데이터셋은 [Instaloader](https://github.com/instaloader/instaloader)로 모으기
 
-### 한국어/영어 Hate Speech Detector 만들기
+### 한국어/영어 Hate Speech Blind Chrome Extension 만들기
 * [captainnemo9292/womad_hate_speech_detection_through_machine_learning](https://github.com/captainnemo9292/womad_hate_speech_detection_through_machine_learning)
 * [pinkeshbadjatiya/twitter-hatespeech](https://github.com/pinkeshbadjatiya/twitter-hatespeech)
 * [vedant-95/Twitter-Hate-Speech-Detection](https://github.com/vedant-95/Twitter-Hate-Speech-Detection)
 * [monologg/korean-hate-speech-koelectra](https://github.com/monologg/korean-hate-speech-koelectra)
 * [captainnemo9292/hate-speech-language-modeling](https://github.com/*captainnemo9292/hate-speech-language-modeling)
 * [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech)
-* [ ] 위에 언급된 repository들 이용해서 특정 혐오감 키워드 블라인드 처리 기능을 크롬 익스텐션에 결합하기
-* [ ] Hate speech dataset에서 키워드 추출 기반 (혹은 다른 방법으로) Chrome extension 만들기
+* [ZIZUN/korean-malicious-comments-dataset](https://github.com/ZIZUN/korean-malicious-comments-dataset)
+* [2runo/Curse-detection-data](https://github.com/2runo/Curse-detection-data)
+* [ ] 위에 언급된 repository들 이용해서 특정 혐오감 키워드 블라인드 처리 기능을 Chrome extension에 결합하기
+* [ ] Hate speech dataset에서 키워드 추출 기반 (혹은 다른 방법으로) Chrome extension 만들기. Tensorflow implementation to Chrome Extension 참고 프로젝트로 [nsfw-filter가 있음.](https://github.com/nsfw-filter/nsfw-filter)
 
 ### 한국어 Speech to Text Model로 신해철 고스트스테이션 Transcript 형성하기
 
